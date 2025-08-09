@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(productRoutes);
 
 app.get('/', (req, res) => {
-  res.send('Hi World!')
+  res.send('Hello World!')
 })
 
 app.listen(port, () => {
